@@ -1,6 +1,6 @@
 import requests
 import json
-from RPL.extractPlayerInfo import (
+from extractPlayerInfo import (
     extract_combined_player_info,
 )
 
@@ -126,7 +126,7 @@ def calculate_player_points(player_data, matchId):
 
 
 if __name__ == "__main__":
-    match_id = 89654
+    match_id = 89689
     #for match_id in 89654,89661,89665:
     get_match_info(str(match_id))
     match_data = {}
